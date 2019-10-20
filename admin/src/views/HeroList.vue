@@ -6,7 +6,7 @@
         <el-table-column prop="name" label="英雄名称" ></el-table-column>
         <el-table-column prop="icon" label="头像" >
           <template slot-scope="scope">
-            <img :src="scope.row.avater" style="width:3em">
+            <img :src="scope.row.avatar" style="width:3em">
           </template>
         </el-table-column>
         <el-table-column fixed="right" label="操作" width="180">

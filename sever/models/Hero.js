@@ -25,4 +25,4 @@ const schema = new mongoose.Schema({
   battleTips:{type:String}
 })
 
-module.exports= mongoose.model('Hero',schema)
+module.exports= mongoose.model('Hero',schema,'heroes')
